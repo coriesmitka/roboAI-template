@@ -25,35 +25,27 @@ robo-ai/
 ├── output/             # Exported runs, GIFs, or demo logs
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project summary and setup info
+```
 
 ## 🧰 Technologies
 
-**Simulation**  
-- Webots (https://cyberbotics.com/)
+- Python 3.x (modular control and integration scripts)
+- Webots (physics-based robot simulation)
+- Vosk (offline speech-to-text integration)
+- pyttsx3 and gTTS (text-to-speech for verbal interaction)
+- Planned: Unity ML-Agents, Isaac Sim, Raspberry Pi + Petoi Bittle
 
-**Programming Language**  
-- Python 3.x
+---
 
-**Speech Recognition**  
-- Vosk (offline speech-to-text) – https://alphacephei.com/vosk/
+## :clipboard: Project Status
 
-**Text-to-Speech (TTS)**  
-- pyttsx3 – https://pypi.org/project/pyttsx3/  
-- gTTS (Google Text-to-Speech) – https://pypi.org/project/gTTS/
-
-**Planned Upgrades**  
-- Unity ML-Agents (reinforcement learning)  
-- NVIDIA Isaac Sim (realistic physics and synthetic data)  
-- Raspberry Pi or Petoi Bittle for hardware deployment
-
-
-## 📌 Project Status
-
-- ✅ Simulator selected: Webots
-- 🔄 Installation and Hello World test: In Progress
-- ⬜ Python control logic: Not Started
-- ⬜ Voice command integration: Planned
-- ⬜ Walking motion tuning: Planned
-- ⬜ Reinforcement learning phase: Planned
-- ⬜ Upgrade to Unity / Isaac / hardware: Planned
+| Module      | Description                                 | Status        |
+|-------------|---------------------------------------------|----------------|
+| Module 1    | Simulator Selection + Environment Setup     | ✅ Completed    |
+| Module 2    | Webots Hello World + Basic Movement         | 🔄 In Progress  |
+| Module 3    | Python Controller Integration               | ⬜ Planned      |
+| Module 4    | Voice Command Recognition (STT)             | ⬜ Planned      |
+| Module 5    | Voice Output Integration (TTS)              | ⬜ Planned      |
+| Module 6    | Walking Motion + Behavior Tuning            | ⬜ Planned      |
+| Module 7    | Upgrade Path: Unity/Isaac/Hardware Export   | ⬜ Planned      |
 
